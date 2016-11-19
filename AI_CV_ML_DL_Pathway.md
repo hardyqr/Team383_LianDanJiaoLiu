@@ -13,7 +13,8 @@ https://www.coursera.org/learn/machine-learning
 ## Course 2: Neural Networks for Machine Learning, Geoffrey Hinton
 https://www.coursera.org/learn/neural-networks
 ## Course 3: Stanford CS231n
-http://cs231n.stanford.edu/syllabus.html
+https://pan.baidu.com/s/1c1M2u7e <\br>
+http://cs231n.stanford.edu/ <\br>
 http://cs231n.github.io/
 
 ## Textbook 1:  Unsupervised Feature Learning and Deep Learning, Stanford
