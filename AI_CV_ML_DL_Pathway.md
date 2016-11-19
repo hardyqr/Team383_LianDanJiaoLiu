@@ -14,7 +14,7 @@ https://www.coursera.org/learn/machine-learning
 https://www.coursera.org/learn/neural-networks
 ## Course 3: Stanford CS231n
 http://cs231n.stanford.edu/syllabus.html
-http://cs231n.github.io/python-numpy-tutorial/
+http://cs231n.github.io/
 
 ## Textbook 1:  Unsupervised Feature Learning and Deep Learning, Stanford
 http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
