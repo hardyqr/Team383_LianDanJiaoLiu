@@ -22,5 +22,9 @@ http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
 ## Textbook 2: Deep Learning, MIT
 http://www.deeplearningbook.org/
 
+## colah's blog
+http://colah.github.io/
+
+
 # Tools and Implementation: Tensorflow
 https://www.tensorflow.org/
