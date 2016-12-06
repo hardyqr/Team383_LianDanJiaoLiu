@@ -20,10 +20,20 @@ https://www.zhihu.com/question/43609045/answer/132235276<br>
 <blockquote>
     <p>
 
-FCN[4]主要用来做pixel-wise的image segmentation预测，先用传统的CNN结构得到feature map，同时将传统的full connected转换成了对应参数的卷积层，比如传统pool5层的尺寸是7×7×512，fc6的尺寸是4096，传统的full connected weight是7×7×512×4096这样多的参数，将它转成卷积核，kernel size为7×7，input channel为512，output channel为4096，则将传统的分别带有卷积和全连接的网络转成了全卷积网络(fully convolutional network, FCN)。FCN的一个好处是输入图片尺寸大小可以任意，不受传统网络全连接层尺寸限制，传统的方法还要用类似SPP结构来避免这个问题。FCN中为了得到pixel-wise的prediction，也要把feature map通过deconv转化到像素空间。论文中还有一些具体的feature融合，详情可参见论文。   <br> 
-<br>
-DCGAN[5]中使用deconv就更自然了，本身GAN就需要generative model，需要通过deconv从特定分布的输入数据中生成图片。GAN这种模式被Yann LeCun特别看好，认为是unsupervised learning的一个未来。   <br>  
+FCN[4]主要用来做pixel-wise的image segmentation预测，先用传统的CNN结构得到feature map，同时将传统的full connected转换成了对应参数的卷积层，比如传统pool5层的尺寸是7×7×512，fc6的尺寸是4096，传统的full connected weight是7×7×512×4096这样多的参数，将它转成卷积核，kernel size为7×7，input channel为512，output channel为4096，则将传统的分别带有卷积和全连接的网络转成了全卷积网络(fully convolutional network, FCN)。FCN的一个好处是输入图片尺寸大小可以任意，不受传统网络全连接层尺寸限制，传统的方法还要用类似SPP结构来避免这个问题。FCN中为了得到pixel-wise的prediction，也要把feature map通过deconv转化到像素空间。论文中还有一些具体的feature融合，详情可参见论文。  
+</p>
+</blockquote>
+这是一个对FCN的简单解读：https://zhuanlan.zhihu.com/p/22976342<br>
+这是对FCN及其与CRF结合应用的解读：<br>
+FCN(1)——从分类问题出发:https://zhuanlan.zhihu.com/p/22464571?refer=hsmyy<br>
+FCN(2)——CRF通俗非严谨的入门:https://zhuanlan.zhihu.com/p/22464581?refer=hsmyy<br>
+FCN(3):<br>
+FCN(4):<br>
+FCN(5):<br>
 
+<blockquote>
+<p>
+DCGAN[5]中使用deconv就更自然了，本身GAN就需要generative model，需要通过deconv从特定分布的输入数据中生成图片。GAN这种模式被Yann LeCun特别看好，认为是unsupervised learning的一个未来。   
     </p>
 </blockquote>
 
@@ -34,4 +44,11 @@ DCGAN[5]中使用deconv就更自然了，本身GAN就需要generative model，�
 [5] Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks   <br> 
 [6] Sparse Coding - Ufldl   <br> 
 [7] Denoising Autoencoders (dA)   <br> 
-[8] Convolution arithmetic tutorial 
+[8] Convolution arithmetic tutorial <br>
+
+这里还有一个各种convolution的动画演示：
+https://github.com/vdumoulin/conv_arithmetic <br>
+名词解释：<br>
+padding - 赘余<br>
+stride - 步幅<br>
+dilated - 扩大的<br>
