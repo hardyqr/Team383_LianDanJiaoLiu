@@ -26,7 +26,7 @@ https://www.zhihu.com/question/40850491/answer/88651844
 
 CNN中的感受野：https://zhuanlan.zhihu.com/p/22627224
 
-# stride
+### stride
 
 >就是你每个convolution之间移动多少，这决定了你一层需要扫多少遍。直观理解就是每次观察局部和上一次重合度。所有CNN都这样理解stride。
 https://www.zhihu.com/question/42047794
