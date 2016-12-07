@@ -25,7 +25,9 @@ https://www.coursera.org/learn/probabilistic-graphical-models
 ## Textbook 1:  Unsupervised Feature Learning and Deep Learning, Stanford
 http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
 ## Textbook 2: Deep Learning, MIT
-http://www.deeplearningbook.org/
+http://www.deeplearningbook.org/ <br>
+Chinese Edition:
+https://github.com/exacity/deeplearningbook-chinese
 
 ## colah's blog
 http://colah.github.io/
