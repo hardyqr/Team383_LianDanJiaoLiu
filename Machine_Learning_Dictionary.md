@@ -60,5 +60,6 @@ https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthrough
 http://mp.weixin.qq.com/s?__biz=MzI1NTE4NTUwOQ==&mid=2650325352&idx=1&sn=90fb15cee44fa7175a804418259d352e&scene=0#wechat_redirect<br>
 <br>
 >“What I cannot create, I do not understand.” —Richard Feynman
+
 Generative Models by OpenAI:<br>
 https://openai.com/blog/generative-models/#contributions<br>
