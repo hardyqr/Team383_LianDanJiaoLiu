@@ -38,7 +38,7 @@ https://arxiv.org/pdf/1406.2661v1.pdf<br>
 Invented by Ian Goodfellow<br>
 <br>
 What are the pros and cons of using generative adversarial networks?<br>
-https://www.quora.com/What-are-the-pros-and-cons-of-using-generative-adversarial-networks-a-type-of-neural-network
+https://www.quora.com/What-are-the-pros-and-cons-of-using-generative-adversarial-networks-a-type-of-neural-network<br>
 <br>
 Improved Techniques for Training GANs:<br>
 https://arxiv.org/pdf/1606.03498v1.pdf<br>
@@ -59,3 +59,6 @@ https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthrough
 近期GAN的模型和理论发展<br>
 http://mp.weixin.qq.com/s?__biz=MzI1NTE4NTUwOQ==&mid=2650325352&idx=1&sn=90fb15cee44fa7175a804418259d352e&scene=0#wechat_redirect<br>
 <br>
+>“What I cannot create, I do not understand.” —Richard Feynman
+Generative Models by OpenAI:<br>
+https://openai.com/blog/generative-models/#contributions<br>
