@@ -55,6 +55,7 @@ https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthrough
 <br>
 
 >评价无监督学习好坏的方式有很多，其中生成任务就是最直接的一个。只有当我们能生成/创造我们的真实世界，才能说明我们是完完全全理解了它。（即generative models）<br>
+
 近期GAN的模型和理论发展<br>
 http://mp.weixin.qq.com/s?__biz=MzI1NTE4NTUwOQ==&mid=2650325352&idx=1&sn=90fb15cee44fa7175a804418259d352e&scene=0#wechat_redirect<br>
 <br>
