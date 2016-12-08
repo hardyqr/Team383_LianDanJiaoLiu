@@ -16,10 +16,13 @@ Springenberg et al., 2014<br>
 
 ### 2. Global Average Pooling instead of Fully Connected Layers
 Mordvintsev et al.<br>
-
-
+![No fully connected layers](https://github.com/hardyqr/Team383_LianDanJiaoLiu/blob/master/Images/Screen%20Shot%202016-12-08%20at%2017.59.37.png)
+<br>
 ### 3.Batch Normalization
 Ioffe & Szegedy, 2015<br>
 >It stabilizes learning by **normalizing the input to each unit** to have **zero mean** and **unit variance**.
 <br>
 >Directly applying batchnorm to all layers however, resulted in sample oscillation and model instability. This was avoided by not applying batchnorm to the generator output layer and the discriminator input layer.
+<br>
+![CNN architecture summary]https://github.com/hardyqr/Team383_LianDanJiaoLiu/blob/master/Images/Screen%20Shot%202016-12-08%20at%2017.59.25.png)
+<br>
