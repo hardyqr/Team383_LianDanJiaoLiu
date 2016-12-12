@@ -8,16 +8,20 @@ Code:https://github.com/phillipi/pix2pix
 ## Method
 #### GAN
 >GANs are generative models that learn a mapping from random noise vector z to output image y.   
+
 <br>
 G:z->y<br>
 <br>
 #### cGAN
 >Conditional GANs learn a mapping from observed image x and random noise vector z, to y.   
+
 <br>
 G:{x,z}->y
 <br>
 
-The generator G is trained to produce outputs that cannot be distinguished from “real” images by an adversarially trained discrimintor, D, which is trained to do as well as possible at detecting the generator’s “fakes”.
+>The generator G is trained to produce outputs that cannot be distinguished from “real” images by an adversarially trained discrimintor, D, which is trained to do as well as possible at detecting the generator’s “fakes”.
+
+
 
 ### Network architectures
 
