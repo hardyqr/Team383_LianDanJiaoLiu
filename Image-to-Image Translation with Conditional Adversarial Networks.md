@@ -43,9 +43,11 @@ https://arxiv.org/pdf/1505.04597.pdf
 
 
 #### Markovian discriminator (PatchGAN)
+Paper:https://arxiv.org/pdf/1604.04382v1.pdf
+
+Code:https://github.com/chuanli11/MGANs
 
 
-
-### Model training
+### Optimization and Inference
 >we alternate between one gradient descent step on D, then one step on G.
 
