@@ -24,6 +24,27 @@ G:{x,z}->y
 
 
 ### Network architectures
+>We adapt our generator and discriminator architectures from those in DCGAN.
+
+DCGAN:https://github.com/hardyqr/Team383_LianDanJiaoLiu/blob/master/DCGAN.md
+>Both generator and discriminator use modules of the form convolution-BatchNorm-ReLu.   
+
+
+Batch normalization: Accelerating deep network training by reducing internal covariate shift:
+https://arxiv.org/pdf/1502.03167v3.pdf
+
+Why Batch Normalization works?
+https://www.zhihu.com/question/38102762
+
+
+#### Generator with skips: U-Net
+U-net: Convolutional networks for biomedical image segmentation:
+https://arxiv.org/pdf/1505.04597.pdf
+
+
+#### Markovian discriminator (PatchGAN)
+
+
 
 ### Model training
 >we alternate between one gradient descent step on D, then one step on G.
