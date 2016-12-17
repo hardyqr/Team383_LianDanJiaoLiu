@@ -63,3 +63,42 @@ http://mp.weixin.qq.com/s?__biz=MzI1NTE4NTUwOQ==&mid=2650325352&idx=1&sn=90fb15c
 
 Generative Models by OpenAI:<br>
 https://openai.com/blog/generative-models/#contributions<br>
+
+
+
+### Intersection Over Union (IoU)
+分割结果与Ground Truth的交集比上它们的并集<br>
+(Segmentation Result)∩(Ground Truth)/(Segmentation Result)∪(Ground Truth)
+ 
+### Recall, Percesion and Accuracy
+Differences among **Recall**, **Percesion** and **Accuracy**: 
+http://blog.csdn.net/pirage/article/details/9851339<br>
+http://blog.csdn.net/wangran51/article/details/7579100<br>
+
+假设原始样本中有两类，其中：<br>
+
+1：假设类别1为正例，总共有 P个类别为1的样本。 <br>
+2：假设类别0为负例，总共有N个类别为0的样本。 <br>
+
+
+经过分类后：<br>
+
+3：有TP个类别为1的样本被系统正确判定为类别1，FN个类别为1的样本被系统误判定为类别0，
+显然有P=TP+FN； 
+4：有FP个类别为0的样本被系统误判断定为类别1，TN个类别为0 的样本被系统正确判为类别0，
+显然有N=FP+TN； 
+
+#### Recall
+R = TP/(TP+FN) = 1 - FN/T
+反映了**被正确判定的正例**占**总的正例**的比重 
+
+#### Percesion
+P = TP/(TP+FP)   
+反映了**被分类器判定的正例**中**真正的正例**样本的比重
+#### Accuracy
+A = (TP + TN)/(P+N) = (TP + TN)/(TP + FN + FP + TN)   
+反映了分类器统对整个样本的判定能力——能将正的判定为正，负的判定为负 
+
+
+### F1 度量？？？
+ 
