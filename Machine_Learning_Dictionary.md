@@ -72,6 +72,7 @@ https://openai.com/blog/generative-models/#contributions<br>
  
 ### Recall, Precesion and Accuracy
 Differences among **Recall**, **Precision** and **Accuracy**: 
+
 http://blog.csdn.net/pirage/article/details/9851339<br>
 http://blog.csdn.net/wangran51/article/details/7579100<br>
 
@@ -89,14 +90,17 @@ http://blog.csdn.net/wangran51/article/details/7579100<br>
 显然有N=FP+TN； 
 
 #### Recall
-R = TP/(TP+FN) = 1 - FN/(TP+FN)
+R = TP/(TP+FN) = 1 - FN/(TP+FN)   
+
 反映了**被正确判定的正例**占**总的正例**的比重 
 
 #### Precision
 P = TP/(TP+FP)   
+
 反映了**被分类器判定的正例**中**真正的正例**样本的比重
 #### Accuracy
-A = (TP + TN)/(P+N) = (TP + TN)/(TP + FN + FP + TN)   
+A = (TP + TN)/(P+N) = (TP + TN)/(TP + FN + FP + TN)      
+
 反映了分类器统对整个样本的判定能力——能将正的判定为正，负的判定为负 
 
 
