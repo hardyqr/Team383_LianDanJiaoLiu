@@ -3,14 +3,14 @@ i.e. not using sliding window to obtain bounding boxes
 ## Active object localization with deep reinforcement learning
 
 
+>In contrast to sliding windows, our approach does not follow a fixed path to search objects;
+>instead, different objects in different scenes will end up in different search paths.
+
 
 ## Hierarchical Object Detection with Deep Reinforcement Learning 
 NIPS 2016  
 https://arxiv.org/pdf/1611.03718v2.pdf  
 
-
->In contrast to sliding windows, our approach does not follow a fixed path to search objects;
->instead, different objects in different scenes will end up in different search paths.
 
 
 state=descriptor of the current region + memory vector<br>
