@@ -89,20 +89,31 @@ http://blog.csdn.net/wangran51/article/details/7579100<br>
 4：有FP个类别为0的样本被系统误判断定为类别1，TN个类别为0 的样本被系统正确判为类别0，
 显然有N=FP+TN。
 
-#### Recall
-R = TP/(TP+FN) = 1 - FN/(TP+FN)   
+#### Precision  查准率
+P = TP/(TP+FP)   
+
+反映了**被分类器判定的正例**中**真正的正例**样本的比重
+
+#### Recall  查全率
+R = TP/(TP+FN) = 1 - FN/(TP+FN)   
 
 反映了**被正确判定的正例**占**总的正例**的比重 
 
-#### Precision
-P = TP/(TP+FP)   
 
-反映了**被分类器判定的正例**中**真正的正例**样本的比重
 #### Accuracy
 A = (TP + TN)/(P+N) = (TP + TN)/(TP + FN + FP + TN)      
 
 反映了分类器统对整个样本的判定能力——能将正的判定为正，负的判定为负 
 
 
-### F1 度量？？？
+### F-Measure/F-Score  F1度量
+http://blog.csdn.net/chjjunking/article/details/5933105<br>
+http://blog.csdn.net/u011826404/article/details/53242081<br>
+F-Measure是P和R的**加权调和平均**
+
+#### 机器学习中的F1度量，为什么定义为precision和recall的调和平均，而不是算术平均？
+>不懂理论，只凭经验说两句。抛砖引玉。
+>假设p和r一个是1.0一个是0.1,算术平均会接近0.5 而调和平均接近0.2，这说明调和平均会强调两者的一致性，明显不一致时倾向于小的值，这更符合人们的直观感受。
+
+https://www.zhihu.com/question/47980482
  
