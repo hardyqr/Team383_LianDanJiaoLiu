@@ -85,9 +85,9 @@ http://blog.csdn.net/wangran51/article/details/7579100<br>
 经过分类后：<br>
 
 3：有TP个类别为1的样本被系统正确判定为类别1，FN个类别为1的样本被系统误判定为类别0，
-显然有P=TP+FN； 
+显然有P=TP+FN。<br>
 4：有FP个类别为0的样本被系统误判断定为类别1，TN个类别为0 的样本被系统正确判为类别0，
-显然有N=FP+TN； 
+显然有N=FP+TN。
 
 #### Recall
 R = TP/(TP+FN) = 1 - FN/(TP+FN)   
