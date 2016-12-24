@@ -9,9 +9,9 @@
 
 
 ## Machine Learning and Deep Learning Theory
-Choose one from Course 1 and Course 2. Then choose one from Course 3 and Course 4. Course 5 is about Probablistic Graphical Models and is optional.<br>
+Choose one from Course 1&2. And then one from Course 3&4. Course 5 is an intro to Probablistic Graphical Models and is optional.<br>
 <br>
-Personally, I prefer the combination of Course 1, Course 4 and Course 5.
+I personally prefer the combination of Course 1,4 and 5.
 <br>
 Textbook 1&2 are comparably great.
 <br>
