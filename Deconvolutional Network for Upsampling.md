@@ -27,9 +27,10 @@ FCN[4]主要用来做pixel-wise的image segmentation预测，先用传统的CNN�
 这是对FCN及其与CRF结合应用的解读：<br>
 FCN(1)——从分类问题出发:https://zhuanlan.zhihu.com/p/22464571?refer=hsmyy<br>
 FCN(2)——CRF通俗非严谨的入门:https://zhuanlan.zhihu.com/p/22464581?refer=hsmyy<br>
-FCN(3):<br>
-FCN(4):<br>
-FCN(5):<br>
+FCN(3)——DenseCRF:https://zhuanlan.zhihu.com/p/22464586?refer=hsmyy<br>
+FCN(4)——Mean Field Variational Inference:https://zhuanlan.zhihu.com/p/22887466?refer=hsmyy<br>
+FCN(5)——DenseCRF推导:https://zhuanlan.zhihu.com/p/22464569?refer=hsmyy<br>
+FCN(6)——从CRF到RNN:https://zhuanlan.zhihu.com/p/22795755<br>
 
 <blockquote>
 <p>
