@@ -116,4 +116,10 @@ F-Measure是P和R的**加权调和平均**
 >假设p和r一个是1.0一个是0.1,算术平均会接近0.5 而调和平均接近0.2，这说明调和平均会强调两者的一致性，明显不一致时倾向于小的值，这更符合人们的直观感受。
 
 https://www.zhihu.com/question/47980482
+
+
+### Conditional Random Field (CRF)
+[An Introduction to Conditional Random Fields](http://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf)
+[如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？](https://www.zhihu.com/question/35866596)
+
  
