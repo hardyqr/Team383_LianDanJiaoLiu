@@ -11,9 +11,9 @@
 ## Machine Learning and Deep Learning Theory
 Choose one from Course 1&2. And then one from Course 3&4. Course 5 is an intro to Probablistic Graphical Models and is optional.<br>
 <br>
-I personally prefer the combination of Course 1,4 and 5.
+I personally prefer the combination of Course 1,4 and 5.<br>
 <br>
-Textbook 1&2 are comparably great.
+Textbook 1&2 are comparably great.<br>
 <br>
 colah's blog provides some intuitive and insightful understandings about Deep Learning. Worth looking at.
 ### Course 1: Machine Learning, by Andrew Ng @Coursera
@@ -25,8 +25,8 @@ This is the harder mode of Course 1.<br>
 ### Course 3: Neural Networks for Machine Learning, Geoffrey Hinton
 https://www.coursera.org/learn/neural-networks
 ### Course 4: Stanford CS231n, Convolutional Neural Networks for Visual Recognition, by Andrej Karpathy and Fei-Fei Li
-[Videos](https://pan.baidu.com/s/1c1M2u7e)
-[Course Webpage](http://cs231n.stanford.edu/)
+[Videos](https://pan.baidu.com/s/1c1M2u7e)    <br>
+[Course Webpage](http://cs231n.stanford.edu/)<br>
 [Assigments](http://cs231n.github.io/)
 ### Course 5: Probabilistic Graphical Models 1: Representation, by Daphne Koller
 https://www.coursera.org/learn/probabilistic-graphical-models
