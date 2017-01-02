@@ -29,4 +29,5 @@ Conditional Random Field (CRF), which is shown both qualitatively and quantitati
 improve localization performance.
 
 
-PGMs。DCNNs里的max-pooling+downsampling可以达成恒定性（？），
+DCNNs里的max-pooling+downsampling可以达成恒定性（？），但损失对边界的定位精度。最后加一个fully-connected 
+Conditional Random Field就能提高定位精度。
