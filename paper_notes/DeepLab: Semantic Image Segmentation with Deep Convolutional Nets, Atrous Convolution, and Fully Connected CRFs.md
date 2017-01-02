@@ -1,6 +1,6 @@
 # DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs
-
-http://liangchiehchen.com/projects/DeepLab.html
+paper:https://arxiv.org/pdf/1606.00915.pdf<br>
+project:http://liangchiehchen.com/projects/DeepLab.html
 
 
 >First, we highlight convolution with upsampled filters, or **‘atrous convolution’**, 
@@ -31,3 +31,5 @@ improve localization performance.
 
 DCNNs里的max-pooling+downsampling可以达成恒定性（？），但损失对边界的定位精度。最后加一个fully-connected 
 Conditional Random Field就能提高定位精度。
+
+Q：ASP Pooling以及atrous conv中的atrous和dilation conv有何异同？
