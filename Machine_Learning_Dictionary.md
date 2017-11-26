@@ -65,6 +65,7 @@ Generative Models by OpenAI:<br>
 https://openai.com/blog/generative-models/#contributions<br>
 
 
+<<<<<<< HEAD
 ### L0,L1,L2范数
 http://www.cnblogs.com/little-YTMM/p/5879093.html
 
@@ -79,3 +80,67 @@ http://www.cnblogs.com/little-YTMM/p/5879093.html
 
 ### 点到超平面的距离
 Some hyperplane h ={x|wx+b=0}. Some point xi. Then the distance would be w\dot xi+b.
+=======
+
+### Intersection Over Union (IoU)
+分割结果与Ground Truth的交集比上它们的并集<br>
+(Segmentation Result)∩(Ground Truth)/(Segmentation Result)∪(Ground Truth)
+ 
+### Recall, Precesion and Accuracy
+Differences among **Recall**, **Precision** and **Accuracy**: 
+
+http://blog.csdn.net/pirage/article/details/9851339<br>
+http://blog.csdn.net/wangran51/article/details/7579100<br>
+
+假设原始样本中有两类，其中：<br>
+
+1：假设类别1为正例，总共有 P个类别为1的样本。 <br>
+2：假设类别0为负例，总共有N个类别为0的样本。 <br>
+
+
+经过分类后：<br>
+
+3：有TP个类别为1的样本被系统正确判定为类别1，FN个类别为1的样本被系统误判定为类别0，
+显然有P=TP+FN。<br>
+4：有FP个类别为0的样本被系统误判断定为类别1，TN个类别为0 的样本被系统正确判为类别0，
+显然有N=FP+TN。
+
+#### Precision  查准率
+P = TP/(TP+FP)   
+
+反映了**被分类器判定的正例**中**真正的正例**样本的比重
+
+#### Recall  查全率
+R = TP/(TP+FN) = 1 - FN/(TP+FN)   
+
+反映了**被正确判定的正例**占**总的正例**的比重 
+
+
+#### Accuracy
+A = (TP + TN)/(P+N) = (TP + TN)/(TP + FN + FP + TN)      
+
+反映了分类器统对整个样本的判定能力——能将正的判定为正，负的判定为负 
+
+
+### F-Measure/F-Score  F1度量
+http://blog.csdn.net/chjjunking/article/details/5933105<br>
+http://blog.csdn.net/u011826404/article/details/53242081<br>
+F-Measure是P和R的**加权调和平均**
+
+#### 机器学习中的F1度量，为什么定义为precision和recall的调和平均，而不是算术平均？
+>不懂理论，只凭经验说两句。抛砖引玉。
+>假设p和r一个是1.0一个是0.1,算术平均会接近0.5 而调和平均接近0.2，这说明调和平均会强调两者的一致性，明显不一致时倾向于小的值，这更符合人们的直观感受。
+
+https://www.zhihu.com/question/47980482
+
+
+### Conditional Random Field (CRF)
+[An Introduction to Conditional Random Fields](http://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf)<br>
+[如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？](https://www.zhihu.com/question/35866596)<br>
+[Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials](http://graphics.stanford.edu/projects/densecrf/densecrf.pdf)<br>
+In segmentation problem, what its function is?<br>
+DeepLab?<br>
+context<br>
+Anything else?
+
+>>>>>>> 1d5bca46573857d972e74a42e4b34228738bfe29
