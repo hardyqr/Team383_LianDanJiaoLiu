@@ -64,24 +64,6 @@ http://mp.weixin.qq.com/s?__biz=MzI1NTE4NTUwOQ==&mid=2650325352&idx=1&sn=90fb15c
 Generative Models by OpenAI:<br>
 https://openai.com/blog/generative-models/#contributions<br>
 
-
-<<<<<<< HEAD
-### L0,L1,L2范数
-http://www.cnblogs.com/little-YTMM/p/5879093.html
-
-- L0
-向量中非零元素的个数
-
-- L1 Lasso Regression
-每个元素绝对值的和
-
-- L2 Ridge Regression
-欧氏距离
-
-### 点到超平面的距离
-Some hyperplane h ={x|wx+b=0}. Some point xi. Then the distance would be w\dot xi+b.
-=======
-
 ### Intersection Over Union (IoU)
 分割结果与Ground Truth的交集比上它们的并集<br>
 (Segmentation Result)∩(Ground Truth)/(Segmentation Result)∪(Ground Truth)
@@ -143,4 +125,18 @@ DeepLab?<br>
 context<br>
 Anything else?
 
->>>>>>> 1d5bca46573857d972e74a42e4b34228738bfe29
+### L0,L1,L2范数
+http://www.cnblogs.com/little-YTMM/p/5879093.html
+
+- L0
+向量中非零元素的个数
+
+- L1 Lasso Regression
+每个元素绝对值的和
+
+- L2 Ridge Regression
+欧氏距离
+
+### 点到超平面的距离
+
+Some hyperplane h ={x|wx+b=0}. Some point xi. Then the distance would be w\dot xi+b.
